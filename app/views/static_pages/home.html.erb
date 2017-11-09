@@ -1,40 +1,44 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-6">
-			<br>
-			<br>
-			<div class="card">
-				<div class="card-body">
-					<h4 class="card-title">Who Are We?</h4>
-					<p class="card-text">
-					WBI members participate year-round in FIRST® related activities, whether it be robot-building practice, website coding for team promotion, or outreach events to promote FIRST® robotics and STEM education. This helps to not only prepare students for FIRST® Robotics Competitions (FRC), but it also helps to familiarize team members with the principles of FIRST®.	
-					</p>
-				</div>
-			</div>
-			<br>
-			<br>
-			<div class="row">
-				<div class="col">
-					<div class="card">
-						<a class="twitter-timeline" data-height="350" data-theme="light" href="https://twitter.com/frc461?ref_src=twsrc%5Etfw">Tweets by frc461</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			<div id="leftHomeScreen" class="container">
+				<script>
+					$(function() {
+						h = parseInt($('#rightHomeScreen').css('height'));
+						$('#leftHomeScreen').attr('height', h);
+					});
+				</script>
+				<div class="card">
+					<div class="card-body">
+						<h4 class="card-title">Who Are We?</h4>
+						<p class="card-text">
+						WBI members participate year-round in FIRST® related activities, whether it be robot-building practice, website coding for team promotion, or outreach events to promote FIRST® robotics and STEM education. This helps to not only prepare students for FIRST® Robotics Competitions (FRC), but it also helps to familiarize team members with the principles of FIRST®.	
+						</p>
 					</div>
 				</div>
-				<div class="col">
-					<div class="card">
-						<script>
-							$(function() {
-								w = parseInt($('#fb').css('width'));
-								h = parseInt($('#fb').css('height'));
-								$('#fb').attr('src', "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FWBI461%2F&tabs=timeline&height=350&width="+ w +"&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId");
-							});
-						</script>
-						<iframe id="fb" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+				<br>
+				<div class="row">
+					<div class="col">
+						<div class="card">
+							<a class="twitter-timeline" data-theme="light" href="https://twitter.com/frc461?ref_src=twsrc%5Etfw">Tweets by frc461</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card">
+							<script>
+								$(function() {
+									w = parseInt($('#fb').css('width'));
+									$('#fb').attr('src', "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FWBI461%2F&tabs=timeline&height="+ h +"&width="+ w +"&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId");
+								});
+							</script>
+							<iframe id="fb" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="col-md-6">
-			<div class="card">
+			<div id="rightHomeScreen" class="card">
 				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 					<div class="carousel-inner">
 						<div class="carousel-item active"> 
