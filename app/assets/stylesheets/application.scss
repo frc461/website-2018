@@ -17,7 +17,8 @@
 
 header {
 	a {
-		font-size: 1.3em
+		font-size: 1.3em;
+		font: roboto;
 	}
 }
 .container {
@@ -25,10 +26,17 @@ header {
 }
 body {
 	background-image: url('alu.png');
+	font: roboto;
+}
+#content {
 	margin-top: 100px;
+	margin-bottom: 25px;
 }
 .card {
 	border-style: solid;
 	border-width: 3px;
 	border-color: #6f6f6f;
+}
+.nav-link {
+    color: rgba(0,0,0,.9);
 }
