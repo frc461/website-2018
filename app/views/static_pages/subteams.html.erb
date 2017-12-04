@@ -1,77 +1,87 @@
-<div class="container-fluid">
+<<div class="container-fluid">
 	<div class="row">
-		<div class="col-md-6">
-			<div id="leftHomeScreen" class="container">
-				<script>
-					$(function() {
-						h = parseInt($('#rightHomeScreen').css('height'));
-						$('#leftHomeScreen').attr('height', h);
-					});
-				</script>
-				<div class="card">
-					<div class="card-body">
-						<h4 class="card-title">Who Are We?</h4>
+		<div class="col-md-8">
+			<div class="card">
+				<div class="card-header">
+					<h4 class="card-title">Subteams</h4>
+					<ul class="nav nav-tabs card-header-tabs" id="#Subteamtab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="ProgrammingTab" data-toggle="tab" href="#programming" role="tab" aria-controls="programming" aria-selected="true">Programming</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="TechTab" data-toggle="tab" href="#tech" role="tab" aria-controls="tech" aria-selected="false">Tech</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="OutreachTab" data-toggle="tab" href="#outreach" role="tab" aria-controls="outreach" aria-selected="false">Outreach and Initiatives</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="GraphicsTab" data-toggle="tab" href="#graphics" role="tab" aria-controls="graphics" aria-selected="false">Media and Graphics</a>
+						</li>
+					</ul>
+				</div>
+				<div class="tab-content" id="aboutSubteamsContent" role="tablist">
+					<div class="tab-pane fade show active card-body" id="ProgrammingTb" role="tabpanel" aria-labelledby="programming">
+						<h4 class="card-title">Programming</h4>
 						<p class="card-text">
-						WBI members participate year-round in FIRST® related activities, whether it be robot-building practice, website coding for team promotion, or outreach events to promote FIRST® robotics and STEM education. This helps to not only prepare students for FIRST® Robotics Competitions (FRC), but it also helps to familiarize team members with the principles of FIRST®.	
+						The programming subteam is responsible for the creation and maintenace of the website, programming the robot, and the development of other software that benefits the team and the community. The subteam has been honored two times with the website award and has developed an innovative scouting software.
+						</p>
+						<p class="card-text">
+						Since 2004 the programming team has maintained a website designed to inform the community about WBI. The website directs visitors to WBI's social media pages, recognizes the team's sponsors, and preserves team history. The website is consistently updated and fully redone every 1-3 years. In addition to allowing the team's programmers to cultivate their web design and development skills, the website teaches them the ability to collaberate with others on large programming projects.
+						</p>
+						<p class="card-text">
+						Since the 2016-2017 season the programming subteam has created scouting software to use at competition events. The scouting software utilizes a system of LCD screens and keyboards to create an integrated system that allows for the return of ranking data. In addition the scouting software allows the programmers to develop their data anylitics skills. The subteam hopes to make the scouting software more generic to allow for easier transition between years and the use of the software in inter-team outreach.
 						</p>
 					</div>
-				</div>
-				<br>
-				<div class="row">
-					<div class="col">
-						<div class="card">
-							<a class="twitter-timeline" data-theme="light" href="https://twitter.com/frc461?ref_src=twsrc%5Etfw">Tweets by frc461</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-						</div>
+					<div class="tab-pane fade card-body" id="TechTab" role="tabpanel" aria-labelledby="tech">
+						<h4 class="card-title">Tech</h4>
+						<p class="card-text">
+						The tech subteam is responsible for the fabrication and maintainence of the robots and the creation of other mechanical products useful to theteam. The subteam develops its member's mechanical, electronic, and pneumatic design and construction skills, in addition to teaching them the value of colaberation and cooperation. 
+						</p>
 					</div>
-					<div class="col">
-						<div class="card">
-							<script>
-								$(function() {
-									w = parseInt($('#fb').css('width'));
-									$('#fb').attr('src', "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FWBI461%2F&tabs=timeline&height="+ h +"&width="+ w +"&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId");
-								});
-							</script>
-							<iframe id="fb" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-						</div>
+					<div class="tab-pane fade card-body" id="aboutRegionalAndDistrictEvents" role="tabpanel" aria-labelledby="aboutRegionalAndDistrictEvents-tab">
+						<h4 class="card-title">Regional Events and District Events</h4>
+						<p class="card-text">
+						After the robot is complete and bagged, teams relax for a week or so before attending one of 40 Regional Events held each week in March from Thursday through Saturday. In addition, Michigan, Mid-Atlantic, and Indiana teams have the opportunity compete in respective district events. The top half of the teams continue to the State Championship. Each competition, teams arrive the night before to unpack and inspect their robot. Teams are given this day to make any last-minute repairs or modification to their robots as well as compete in several practice rounds held throughout the day to test their six-week creation. Many teams also use the first day as an opportunity to scout other teams' robots in an attempt to learn the strongest competitor in attendance and adjust their own strategy accordingly.
+						</p>
+						<p class="card-text">
+						Friday and Saturday are the main days of each Regional Event; indeed, often teams do not send their full contingent on Thursday, electing instead to bring the entire team to a competition on Friday. On Friday, following the opening ceremonies, teams assemble in predetermined alliances on the competition field to play that year's FRC game. Teams compete in "qualifying matches" throughout the day, changing alliances every round as they do, with each match gaining the winning alliance's teams "qualifying points" (two points for winning a match, no points for losing a match, and one point for tying a match"). Qualifying matches end in the evening, and all teams attend a partial awards ceremony followed by a social event.
+						</p>
+						<p class="card-text">
+						On Saturday, teams continue to compete in qualifying matches until each team has played in an equal number of rounds, which can be anywhere from seven to eleven. The results are tabulated, and the eight teams with the highest number of qualifying points at the conclusion of the matches are brought onto the competition field to serve as "alliance captains." Each alliance captain, in order from first to eighth, selects another team ranked lower than themselves that they would like to ally with for the rest of the competition. The chosen team has the option of accepting or declining the offer; however, if the offer is declined, any other team for the rest of the competition may not choose that team. If the chosen team is another one of the eight alliance captains and accepts the offer of a higher-seeded captain to ally, then all of the teams are moved up one rank based on qualifying rankings; this can and has resulted in a previously unseeded team becoming an alliance captain. This process continues until each of the top eight alliances has one partner. The process then repeats, but the second time, the eighth-seeded alliance captain chooses an alliance partner first, and the first-seeded alliance captain does so last. The eight alliances of three teams each are then paired in an elimination bracket, and compete in a best-of-three-matches series. The team left standing after the final round wins the competition.</p>
+					</div>
+					<div class="tab-pane fade card-body" id="aboutChampionshipEvent" role="tabpanel" aria-labelledby="aboutChampionshipEvent-tab">
+						<h4 class="card-title">Championship Event</h4>
+						<p class="card-text">
+						At the conclusion of the Regional Events, a roster is released for the Championship Event. Each team entered into the event is placed into one of four divisions of about 80 teams each: Archimedes, Curie, Galileo, and Newton. Teams can be entered into the Championship Event in a multitude of ways:
+						</p>
+						<p class="card-text">
+						FRC Teams that registered in or before 1992, when the first Championship Event was held, are automatically eligible to enter so long as they remain active in FRC. All of the winners of Championship Chairman's Awards may enter. The winners of the previous year's Championship Event are automatically given a berth if they choose to accept it. The winners of the Championship Engineering Inspiration Award and Chairman's Award Honorable Mentions from the previous year are given a guaranteed spot on the Championship roster. The winning alliance from each Regional Event or the Michigan State Championship during the current competition season is given the chance to enter if they wish to do so. Each winner of a Regional Chairman's Award or a Chairman's Award at the Michigan State Championship from the current year has a reserved place in the FRC Championship Event. Each team receiving a Regional Engineering Inspiration Award or an Engineering Inspiration Award at the Michigan State Championship is given the opportunity to register for the Championship Event. The rookie team that receives the Rookie All-Star Award at a Regional or the Michigan State Championship will be allowed to enter the FRC Championship. The nine highest ranked Michigan teams after the Michigan State Championship that are not already qualified will be allowed to enter the FRC Championship. If a team does not qualify in the manners listed above, they can still enter the Championship by reserving an open slot on a first-come-first-served basis. Teams that did not attend the previous year's Championship Event are given first preference for the open slots after the above criteria have been fulfilled.
+						</p>
+						<p class="card-text">
+						Teams compete in the same manner that they do at Regional Events, except only within their division as opposed to with all robots at the event. Alliance selection proceeds in the same manner as at Regionals, albeit with choices restricted to one's own division: the first-seeded team chooses an alliance partner, followed by the second-seeded team, etc., and the choosing of the second alliance partner proceeds in reverse order. At the conclusion of the following elimination matches, a division winner, rather than an overall competition winner, is determined in each of the four divisions.
+						</p>
+						<p class="card-text">
+						The division-winning alliances then move to the next phase of the competition: matches on Einstein field. Having won their division, each alliance is entered into a semifinal match replete with tension as they compete to become the world champions of FIRST®. The winning alliance is crowned as the champion, receiving trophies, banners, and bragging rights.
+						</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="col-md-6">
-			<div id="rightHomeScreen" class="card">
-				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-					<div class="carousel-inner">
-						<div class="carousel-item active"> 
-							<img class="d-block w-100" src="/assets/teamPicture.jpg" alt="Team Picture">
-						</div>
-						<div class="carousel-item">
-							<img class="d-block w-100" src="https://placekitten.com/g/400/300" alt="First slide">
-						</div>
-						<div class="carousel-item">
-							<img class="d-block w-100" src="https://placekitten.com/g/400/300" alt="Second slide">
-						</div>
-						<div class="carousel-item">
-							<img class="d-block w-100" src="https://placekitten.com/g/400/300" alt="Third slide">
-						</div>
-					</div>
-					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
-				</div>
+		<br>
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="https://placekitten.com/g/400/150" alt="First Robotics Image">
 				<div class="card-body">
-					<h4 class="card-title">How We Exist</h4>
+					<h4 class="card-title">About FIRST®</h4>
 					<p class="card-text">
-					If it weren't for the generosity of the individuals and businesses who sponsor our program, we would not have the resources to provide these great opportunities for our community. If you would like to sponsor our team, please see the Support Us page.
+					FIRST®, or, "For Inspiration and Recognition of Science and Technology," was founded in 1989 by Dean Kamen to inspire young people's interest and participation in science and technology. Their mission, according to the FIRST® website, is to "inspire young people to be science and technology leaders, by engaging them in exciting mentor-based programs that build science, engineering and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership."
+					</p>
+					<p class ="card-text">
+					In 2013, the FIRST® Robotics Competition currently encompasses more than 50,000 high-school students on over 2,500 teams. The majority of high-school students engage in the FRC, or FIRST® Robotics Competition. During build season, students have a six week time period to design, build, and debug their robot to meet specifications and rules set for the competition that year.
 					</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<br>
 
