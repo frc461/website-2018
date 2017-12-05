@@ -9,4 +9,6 @@ class StaticPagesController < ApplicationController
   end
   def subteams
   end
+  def contactus
+  end
 end
