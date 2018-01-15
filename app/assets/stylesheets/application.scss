@@ -52,6 +52,10 @@ body {
 .collageColumn {
 	padding: 8px;
 }
+.scroll {
+	height: 400px;
+	overflow-y: scroll;
+}
 .subteamImage:hover {
 	opacity: 0.75;
 }
