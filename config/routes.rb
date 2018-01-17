@@ -5,5 +5,9 @@ Rails.application.routes.draw do
   get 'aboutfirst', to: 'static_pages#aboutfirst'
   get 'subteams', to: 'subteam_pages#subteams'
   get 'contactus', to: 'static_pages#contactus'
+  get 'subteams/tech', to: 'subteam_pages#tech'
+  get 'subteams/oi', to: 'subteam_pages#oi'
+  get 'subteams/prog', to: 'subteam_pages#prog'
+  get 'subteams/media', to: 'subteam_pages#media'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
