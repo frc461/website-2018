@@ -1,12 +1,12 @@
 class SubteamPagesController < ApplicationController
-  def programming
+  def subteams
   end
-  def outreach
+  def tech
+  end
+  def oi
+  end
+  def prog
   end
   def media
-  end
-  def teach
-  end
-  def subteams
   end
 end
