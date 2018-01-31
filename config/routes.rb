@@ -10,5 +10,6 @@ Rails.application.routes.draw do
   get 'subteams/oi', to: 'subteam_pages#oi'
   get 'subteams/prog', to: 'subteam_pages#prog'
   get 'subteams/media', to: 'subteam_pages#media'
+  get 'documents', to:'static_pages#documents'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
