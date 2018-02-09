@@ -86,3 +86,18 @@ border: 0px;
 width:100%;
 height:50%;
 }
+.btn-features {
+background-color:#cc342f;
+border-color:#cc342f;
+font:roboto;
+font-size:1.7 em;
+font-color:#cc342f;
+
+}
+.btn:hover {
+    background-color: transparent;
+    font-color: #cc342f;
+    font:roboto;
+    font-size:1.7 em;
+    border-color:#cc342f;
+}
