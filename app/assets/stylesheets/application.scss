@@ -15,6 +15,10 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
 
+img {
+	max-width: 100%;
+}
+
 .image-height-fix img{
 	height: 80px;
 	margin: auto;
@@ -62,6 +66,10 @@ body {
 .subteamImageHolder {
 	background-color: #ca292b;
 }
+.team-pic-height{
+flex-direction: column;
+display:flex;
+}
 .collageTitle {
     position: absolute;
     top: 50%;
@@ -87,19 +95,19 @@ width:100%;
 height:50%;
 }
 .btn-features {
-background-color:#cc342f;
-border-color:#cc342f;
+background-color: #e7c424;
+border-color: #e7c424;
 font:roboto;
 font-size:1.7 em;
-font-color:#cc342f;
+font-color: #e7c424;
 
 }
 .btn:hover {
     background-color: transparent;
-    font-color: #cc342f;
+    font-color: #e7c424;
     font:roboto;
     font-size:1.7 em;
-    border-color:#cc342f;
+    border-color: #e7c424;
 }
 .logoheight{
 height:96;
