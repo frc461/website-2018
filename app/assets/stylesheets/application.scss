@@ -99,30 +99,29 @@ background-color: #e7c424;
 border-color: #e7c424;
 font:roboto;
 font-size:1.7 em;
-font-color: #e7c424;
-
+    color: black;
 }
 .btn-features2{
 background-color:#cd332e;
 border-color:#cd332e;
-font:roboto;
+font:'Roboto';
 font-size:1.7 em;
-font-color: #e7c424;
 }
 .btn:hover {
     background-color: transparent;
     font-color: #e7c424;
-    font:roboto;
-    font-size:1.7 em;
     border-color: #e7c424;
 }
 .btn2:hover{
 background-color:transparent;
 font-color:#e7c424;
-font:roboto;
-font-size:1.7 em; 
 border-color:#cd332e;
 }
 .logoheight{
 height:96;
+}
+
+.nav.nav-pills .active {
+  background-color: #e7c424;
+  color: black;
 }
