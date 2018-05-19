@@ -18,7 +18,6 @@
 img {
 	max-width: 100%;
 }
-
 .image-height-fix img{
 	height: 80px;
 	margin: auto;
@@ -53,6 +52,7 @@ body {
 .collageRow {
 	padding: 0px;
 }
+
 .collageColumn {
 	padding: 8px;
 }
@@ -102,12 +102,26 @@ font-size:1.7 em;
 font-color: #e7c424;
 
 }
+.btn-features2{
+background-color:#cd332e;
+border-color:#cd332e;
+font:roboto;
+font-size:1.7 em;
+font-color: #e7c424;
+}
 .btn:hover {
     background-color: transparent;
     font-color: #e7c424;
     font:roboto;
     font-size:1.7 em;
     border-color: #e7c424;
+}
+.btn2:hover{
+background-color:transparent;
+font-color:#e7c424;
+font:roboto;
+font-size:1.7 em; 
+border-color:#cd332e;
 }
 .logoheight{
 height:96;
