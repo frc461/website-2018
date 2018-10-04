@@ -15,9 +15,6 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
 
-img {
-	max-width: 100%;
-}
 .image-height-fix img{
 	height: 80px;
 	margin: auto;
@@ -99,7 +96,7 @@ background-color: #e7c424;
 border-color: #e7c424;
 font:roboto;
 font-size:1.7 em;
-    color: black;
+    color: white !important;
 }
 .btn-features2{
 background-color:#cd332e;
