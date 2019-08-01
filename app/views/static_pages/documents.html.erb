@@ -1,88 +1,98 @@
 <div class="container-fluid">
-	<div class="row">
-		<div class="col-md-6">
-			<div class="card">
-				<div class="carousel slide" id="documentCarouselControls" data-ride="carousel">
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<%=image_tag "scouts14s.jpg", :class=>"d-block w-100"%> 
-						</div>
-						<div class="carousel-item">
-							<%=image_tag "scouts15s.jpg", :class=>"d-block w-100"%>
-						</div>
-						<div class="carousel-item">
-							<%=image_tag "scouts3.JPG", :class=>"d-block w-100"%>
-						</div>
-						<div class="carousel-item">
-							<%=image_tag "scouts19s.jpg", :class=>"d-block w-100"%>
-						</div>
-						<div class="carousel-item">
-							<%=image_tag "scouts8s.jpg", :class=>"d-block w-100"%>
-						</div>
+    <div class="row">
+        <div class="col-md-8 d-flex flex-column justify-content-center">
+            <div class="card">
+                <div class="carousel slide" id="documentCarouselControls" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <%=image_tag "scouts14s.jpg", :class=>"d-block w-100"%> 
+                        </div>
+                        <div class="carousel-item">
+                            <%=image_tag "scouts15s.jpg", :class=>"d-block w-100"%>
+                        </div>
+                        <div class="carousel-item">
+                            <%=image_tag "scouts3.JPG", :class=>"d-block w-100"%>
+                        </div>
+                        <div class="carousel-item">
+                            <%=image_tag "scouts19s.jpg", :class=>"d-block w-100"%>
+                        </div>
+                        <div class="carousel-item">
+                            <%=image_tag "scouts8s.jpg", :class=>"d-block w-100"%>
+                        </div>
 
-					</div>
-					<a class="carousel-control-prev" href="#documentCarouselControls" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#documentCarouselControls" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
-				</div>
-				<div class="card-body">
-					<h4 class="card-title">Girl Scouts</h4>
-					<a class="card-text" href="/Introductory.Presentation.pdf">Introductory Presentation</a></br>
-					<a class="card-text" href="/Designing.Robots.Presentation.pdf">Designing Robots Presentation</a></br>
-					<a class="card-text" href="/Programming.Robots.Presentation.pdf">Programming Robots Presentation</a></br>
-					<a class="card-text" href="/Official.Girl.Scout.Junior.Badge.Guide.pdf">Official Girl Scout Junior Badge Guide</a></br>
-					<a class="card-text" href="/Girl.Scouts.Guide.pdf">Girl Scouts Guide</a></br>
-				</div>
-			</div>	
-		</div>
-		<div class="col-md-6">
-			
-						<h4 style="font-family:roboto;color:white; font-size:1.5rem; padding:5px" class="card-title">Downloadable Resources</h4>
-			<!--	<div class="card">
-					<div class="card-body">
-						<h4 class="card-title">Woodie Flowers</h4>
-						<a class="card-text" href="/FlosWoodieFlowers2015.pdf">Flos Woodie Flowers 2015</a></br>
-						<a class="card-text" href="/FlosWoodieFlowers2014.pdf">Flos Woodie Flowers 2014</a></br>
-						<a class="card-text" href="/FlosWoodieFlowers2013.pdf">Flos Woodie Flowers 2013</a></br>
-						<a class="card-text" href="/BradWoodieFlowers2017.pdf">Brad Woodie Flowers 2017</a></br>
-						<a class="card-text" href="/BradWoodieFlowers2016.pdf">Brad Woodie Flowers 2016</a></br>
-						<a class="card-text" href="/BradWoodieFlowers2015.pdf">Brad Woodie Flowers 2015</a></br>
-					</div>
-				</div>
-				</br>
--->
-				<div class="card">
-					<div class="card-body">
-						<h4 class="card-title">Boy Scouts</h4>
-						<a class="card-text" href="/roboticsmeritbadge.pdf">Robotics Merit Badge</a></br>
-						<a class="card-text" href="/ProgrammingMEritBadge.pdf">Programming Merit Badge</a></br>
-					</div>
-				</div>
-				</br>
-				<div class="card">
-					<div class="card-body">
-						<h4 class="card-title">Unified Robotics</h4>
-            <a class="card-text" href="<%= asset_path 'gamedraft7.png' %>">Game Board</a></br>
-						<a class="card-text" href="/UnifiedRoboticsFirstMeeting.pdf">First Day Presentation</a></br>
-						<a class="card-text" href="/UnifiedRoboticsSecondMeeting.pdf">Second Day Presentation</a></br>
-					</div>
-				</div>
-				</br>
-				<div class="card">
-					<div class="card-body">
-						<h4 class="card-title">Minorities in Engineering</h4>
-						<a class="card-text" href="/dayone.pdf">Introduction Presentation</a></br>
-						<a class="card-text" href="/daytwo.pdf">Scratch</a></br>
-						<a class="card-text" href="/daythree.pdf">Sumo Presentation</a></br>
-						<a class="card-text" href="/NXTBlocks.pdf">NXT Programming</a></br>
-						<a class="card-text" href="/ActivitySummary.pdf">Five Day Camp Plan</a></br>
-					</div>
-				</div>
-		</div>
-	</div>
+                    </div>
+                    <a class="carousel-control-prev" href="#documentCarouselControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#documentCarouselControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>	
+        </div>
+        <div class="col-md-4">
+
+            <h4 style="font-family:roboto;color:white; font-size:1.5rem; padding:5px" class="card-title">Downloadable Resources</h4>
+            <!--	<div class="card">
+                <div class="card-body">
+                <h4 class="card-title">Woodie Flowers</h4>
+                <a class="card-text" href="/FlosWoodieFlowers2015.pdf">Flos Woodie Flowers 2015</a></br>
+                <a class="card-text" href="/FlosWoodieFlowers2014.pdf">Flos Woodie Flowers 2014</a></br>
+                <a class="card-text" href="/FlosWoodieFlowers2013.pdf">Flos Woodie Flowers 2013</a></br>
+                <a class="card-text" href="/BradWoodieFlowers2017.pdf">Brad Woodie Flowers 2017</a></br>
+                <a class="card-text" href="/BradWoodieFlowers2016.pdf">Brad Woodie Flowers 2016</a></br>
+                <a class="card-text" href="/BradWoodieFlowers2015.pdf">Brad Woodie Flowers 2015</a></br>
+                </div>
+                </div>
+                </br>
+            -->
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Boy Scouts</h4>
+                    <a class="card-text" href="/roboticsmeritbadge.pdf">Robotics Merit Badge</a></br>
+                    <a class="card-text" href="/ProgrammingMeritBadge.pdf">Programming Merit Badge</a></br>
+                </div>
+            </div>
+            </br>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Unified Robotics</h4>
+                    <a class="card-text" href="<%= asset_path 'gamedraft7.png' %>">Game Board</a></br>
+                    <a class="card-text" href="/UnifiedRoboticsFirstMeeting.pdf">First Day Presentation</a></br>
+                    <a class="card-text" href="/UnifiedRoboticsSecondMeeting.pdf">Second Day Presentation</a></br>
+                </div>
+            </div>
+            </br>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Minorities in Engineering</h4>
+                    <a class="card-text" href="/dayone.pdf">Introduction Presentation</a></br>
+                    <a class="card-text" href="/daytwo.pdf">Scratch</a></br>
+                    <a class="card-text" href="/daythree.pdf">Sumo Presentation</a></br>
+                    <a class="card-text" href="/NXTBlocks.pdf">NXT Programming</a></br>
+                    <a class="card-text" href="/ActivitySummary.pdf">Five Day Camp Plan</a></br>
+                </div>
+            </div>
+            </br>
+            <div class= "card">
+                <div class="card-body">
+                    <h4 class="card-title">Girl Scouts</h4>
+                    <a class="card-text" href="/Introductory.Presentation.pdf">Introductory Presentation</a></br>
+                    <a class="card-text" href="/Designing.Robots.Presentation.pdf">Designing Robots Presentation</a></br>
+                    <a class="card-text" href="/Programming.Robots.Presentation.pdf">Programming Robots Presentation</a></br>
+                    <a class="card-text" href="/Official.Girl.Scout.Junior.Badge.Guide.pdf">Official Girl Scout Junior Badge Guide</a></br>
+                    <a class="card-text" href="/Girl.Scouts.Guide.pdf">Girl Scouts Guide</a></br>
+                </div>
+            </div>
+            </br>
+            <div class= "card">
+                <div class="card-body">
+                    <h4 class="card-title">Safety</h4>
+                    <a class="card-text" href="/safety">Wow</a></br>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
